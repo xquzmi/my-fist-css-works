@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+
+.header{
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+ul, li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.header a{
+    color: white;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.menu li{
+    margin-right: 40px;
+}
+
+.tel{
+    font-size: 17px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+}
+
+.logo{
+    margin-right: 69px;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.1em;
+    margin-bottom: 19px;
+    margin-top: -9px;
+}
+
+.header-title{
+    margin-top: 355px;
+}
+
+.small{
+    font-size: 30px;
+}
+
+.title{
+    font-size: 100px;
+}
+
+.btn{
+    margin-top: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 17px;
+    border: 1px solid #FFFFFF;
+    padding: 18px 23px;
+    width: 238px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Anton', sans-serif;
+}
+
+.desc{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-left{
+    width: 567px;
+}
+
+.desc-right{
+    width: 567px;
+}
+
+h2{
+    margin-top: 113px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 334px;
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.desc p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+
+.images{
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    display: flex;
+    
+}
+
+.footer-text p{
+    margin-right: 55px;
+}
